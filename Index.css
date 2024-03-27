@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  background-color: black;
+}
+
+.tile {
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
